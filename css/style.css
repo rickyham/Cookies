@@ -1,0 +1,100 @@
+body{
+    font-family: "Helvetica Neue";
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation: rotate-background 30s infinite;
+    -moz-animation: rotate-background 30s infinite;
+    animation: rotate-background 30s infinite;
+}
+
+h1{
+    color: #fff;
+    margin-top: 20px;
+    hyphens: auto;
+    letter-spacing: -.05em;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+@-webkit-keyframes rotate-background{
+ 0% { 
+    background: url("../img/wallpaper.jpg") no-repeat center center fixed; 
+ }
+    
+ 100% { 
+    background: url("../img/wallpaper-2.jpg") no-repeat center center fixed; 
+ }
+    
+}
+
+@-moz-keyframes rotate-background{
+ 0% { 
+    background: lightblue url("../img/wallpaper.jpg") no-repeat center center fixed; 
+ }
+    
+ 100% { 
+    background: brown url("../img/wallpaper-2.jpg") no-repeat center center fixed; 
+ }
+    
+}
+
+@keyframes rotate-background{
+ 0% { 
+    background: lightblue url("../img/wallpaper.jpg") no-repeat center center fixed; 
+ }
+    
+ 100% { 
+    background: brown url("../img/wallpaper-2.jpg") no-repeat center center fixed; 
+ }
+    
+}
+
+/* Cookie policy */
+#cookie-policy{
+    font-family: "Helvetica Neue";
+    font-size: .75em;
+    letter-spacing: .02em;
+    background: rgba(66, 133, 244, 0.85);
+	color: #fff;
+    left: 0;
+    right: 0;
+    bottom: 0;  
+    position: fixed; 
+    margin: auto;
+    padding: 10px;
+    z-index: 999999;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#cookie-policy p{
+    text-shadow: 0 1px 0px #000;
+    text-align: center;
+    margin: 0;
+}
+
+#cookie-policy a,
+#cookie-policy a:link,
+#cookie-policy a:visited{
+	color: #fff;
+	text-decoration: underline;
+}
+
+#cookie-policy a:hover{
+	text-decoration: none;
+}
+
+#cookie-policy #close{
+	position: absolute;	
+    right: 240px;
+	float: right;
+	cursor: pointer;
+}
+
+.display-block{
+    display: block;
+}

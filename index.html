@@ -1,0 +1,38 @@
+<!doctype>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/scripts.js" type="text/javascript"></script>
+        <script>
+            (function(){
+    
+                window.onload = function(){
+                    
+                    var settings = {
+                        "cookieMessage" : "A world without Cookies is one of great deprivation! For salvations click",
+                        "closeButtonText" : "X",
+                        "linkText" : "here",
+                        "linkTitle" : "Cookie Policy",
+                        "policyLink" : "https://www.google.com.mt/search?q=cookies&espv=210&es_sm=91&tbm=isch&tbo=u&source=univ&sa=X&ei=gbgHU9_SDIzW4wTS3IGYAg&ved=0CEgQsAQ&biw=1366&bih=806y",
+                        "cookieName" : "cookie-policy",
+                        "cookieValue" : "true",
+                        "cookieExpireDays" : 30,
+                        "appendTo" : "default" // The id of the dom element you wish to place the message before or "default"
+                    };
+
+                    // Run
+                    App.Cookie.init(settings);
+                
+                }
+
+            }());
+        </script>
+    </head>
+    <body>
+        
+        <h1>Cookies</h1>
+        
+    </body>
+
+</html>
