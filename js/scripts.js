@@ -100,7 +100,7 @@ App.Cookie = (function(){
             closeButton.addEventListener("click", function(){
                 _private.setCookie(settings.cookieName, settings.cookieValue, settings.cookieExpireDays);
                 _private.removeCookieMessage(cookieContainer);
-            });
+            }, false);
             
         }
         
